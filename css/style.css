@@ -76,6 +76,8 @@
     background-image: url(../images/main-content-bgc.png);
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 334px;
+    padding-bottom: 140px;
 }
 
 .main-content__title{
@@ -83,13 +85,35 @@
     font-size: 28px;
     line-height: 1.4;
     letter-spacing: 0.28em;
-
+    color: #fff;
+    text-transform: uppercase;
 }
 
 .main-content__promo{
-
+    font-family: 'Roboto', sans-serif;
+    font-size: 130px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #fff;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, .25);
 }
 
 .main-content__text{
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 45px;
+    padding-bottom: 145px;
+}
 
+.main-content__btn{
+    font-family: 'Roboto', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #F4CDD8;
+    padding: 22px 57px;
+    border-radius: 75px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
 }
