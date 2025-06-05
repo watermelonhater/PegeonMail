@@ -1,0 +1,95 @@
+.container{
+    max-width: 1440px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.header{
+    border-bottom: 1px solid #C7C7C7;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 14px;
+    padding-bottom: 17px;
+}
+
+.logo{
+    position: relative;
+    padding-top: 18px;
+}
+
+.logo__img{
+    position: absolute;
+    top: 55%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    max-width: 61px;
+    max-height: 57px;
+    opacity: 20%;
+}
+
+.logo__title{
+    font-family: 'Reem Kufi', sans-serif;
+    text-transform: uppercase;
+    line-height: 1.4;
+    font-size: 22px;
+    font-weight: 400;
+    color: #253D36;
+    letter-spacing: .2em;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+    /* padding-left: 22px;
+    padding-top: 45px; */
+}
+
+.header__buttons{
+
+    
+}
+
+.header__btn{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+    margin-right: 20px;
+}
+
+
+.header__btn-green{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #84DBC2;
+    display: inline-block;
+    align-items: center;
+    padding: 18px 48px;
+    border: 1px solid #99EAD3;
+    border-radius: 75px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+}
+
+.main-content{
+    min-height: calc(100vh - 102.2px);
+    background-image: url(../images/main-content-bgc.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-content__title{
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 28px;
+    line-height: 1.4;
+    letter-spacing: 0.28em;
+
+}
+
+.main-content__promo{
+
+}
+
+.main-content__text{
+
+}
